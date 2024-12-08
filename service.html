@@ -1,37 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./service.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./service.css" />
+  </head>
+  <body>
+    <div id="main">
+      <header>
+        <img src="./assects/images/logo.png" class="logo" alt="Company Logo" />
+        <nav>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <!--Mobile-->
+          <select class="mobile-nav" onchange="location = this.value;">
+            <option value="service.html">Services</option>
+            <option value="about.html">About</option>
+            <option value="index.html">Home</option>
+            <option value="contact.html">Contact</option>
+          </select>
+        </nav>
+      </header>
+      <h1 style="font-size: 50px; color: white; text-align: center">
+        Our Services
+      </h1>
+    </div>
     <div>
-        <div>
-          <header>
-            <img src="./assects/images/logo.png" class="logo" alt="Company Logo" />
-          <nav>
-                <ul class="nav-links">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./service.html">Services</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                  </ul>
-            <!--Mobile-->
-            <select class="mobile-nav" onchange="location = this.value;">
-                <option value="index.html">Home</option>
-                <option value="about.html">About</option>
-                <option value="service.html">Services</option>
-                <option value="contact.html">Contact</option>
-              </select>
-          </nav>
-         </header>
-         <h1 style="text-align: center;font-size:50px;color:white">Our Services</h1>
-         <section>
-          <center>
-            <div></div>
-          </center>
-         </section>
-</body>
+      <center>
+      <section id="s1">
+        <div class="a1">
+          <img src="./assects/images/service-1.png" alt="" />
+        </div>
+        <div class="a2">
+          <h1>Web Design</h1>
+          <p>
+            Tell your visitor how your service can improve their life. Connect
+            with the problem that they’re trying to solve and address any
+            objections you think they might have. What is the biggest benefit
+            your customer will get from this? Keep your target audience in mind.
+          </p>
+          <h1 style="color: silver;">From $199</h1>
+        <input type="submit" value="Start a Project" style="padding:10px 25px">
+        </div>
+        <div class="a3">
+          <img src="./assects/images/service-2.png"  alt="" />
+        </div>
+        <div class="a4">
+          <h1>Graphic Design</h1>
+          <p>
+            Tell your visitor how your service can improve their life. Connect
+            with the problem that they’re trying to solve and address any
+            objections you think they might have. What is the biggest benefit
+            your customer will get from this? Keep your target audience in mind.
+          </p>
+          <h1 style="color: silver;">From $199</h1>
+        <input type="submit" value="Start a Project" style="padding:10px 25px">
+                </div>
+        <div class="a5">
+          <img src="./assects/images/service-3.png" alt="" />
+        </div>
+        <div class="a6">
+          <h1>Content Creation</h1>
+          <p>
+            Tell your visitor how your service can improve their life. Connect
+            with the problem that they’re trying to solve and address any
+            objections you think they might have. What is the biggest benefit
+            your customer will get from this? Keep your target audience in mind.
+          <h1 style="color: silver;">From $199</h1>
+        </p>
+        <input type="submit" value="Start a Project" style="padding:10px 25px">
+        </div>
+      </section>
+    </center>
+    </div>
+    <div style="background-color: antiquewhite; padding:10px">
+      <section>
+          <div class="c1">
+             <h1>Why Love Nature</h1>
+             <p>Your customers just learned what services you offer. Tell them why they should work with you or your team, for example you could highlight your experience and positive client reviews.</p>
+              <p>The badges illustrate this.  We also focus on key benefits they will get while using our services, namely quick turnaround times and dedicated support. You could also use them to show awards you won for your best work.</p>
+                      </div>
+        <div></div>
+      </section>
+    </div>
+    <div>
+      <div>
+        <section class="s5">
+          <img src="./assects/images/logo-colored.png" alt="" />
+          <p>Love Nature by Tyler Moore</p>
+        </section>
+      </div>
+  </div>
+  </body>
 </html>
