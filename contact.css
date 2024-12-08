@@ -1,70 +1,110 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 50px;
-    background: url(./assects/images/main.png);
-    background-repeat: no-repeat;
-  }
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    color: white;
-  }
+  font-family: Arial, sans-serif;
+  line-height: 50px;
+  background: url(./assects/images/main.png);
+  background-size: 100% 60vh;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: white;
+}
+#b1 {
+  height: 60vh;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 120px;
+}
+
+nav {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  float: right;
+  line-height: 80px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  box-shadow: 2px 2px 50px red;
+}
+
+.mobile-nav {
+  display: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+#b2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.a1 {
+  padding: 50px;
+  width: 400px;
+}
+.a1 .a2,
+.a4 {
+  font-family: cursive;
+  font-size: 40px;
+}
+.b2 ~ ion-icon {
+  justify-content: space-between;
+}
+.a3 {
+  padding: 50px;
+  width: 400px;
+}
+.img123{
+  /* padding: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   
-  .logo img {
-    max-width: 120px;
-  }
-  
-  nav {
-    float: right;
-    display: flex;
-    align-items: center;
-  }
-  
+}
+.s5 {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+@media (max-width: 425px) {
   .nav-links {
-    float: right;
-    line-height: 80px;
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin: 0 1rem;
-  }
-  
-  .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-  }
-  
-  .nav-links a:hover {
-    text-decoration: none;
-    box-shadow: 2px 2px 50px red;
-  }
-  
-  .mobile-nav {
     display: none;
-    font-size: 1rem;
-    padding: 0.5rem;
   }
-  
-  @media (max-width: 425px) {
-    .nav-links {
-      display: none;
-    }
-  
-    .mobile-nav {
-      display: inline-block;
-      background-color: #333;
-      color: white;
-      border: none;
-      outline: none;
-    }
-  
-    .mobile-nav option {
-      background-color: grey;
-      color: white;
-    }
+
+  .mobile-nav {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    border: none;
+    outline: none;
   }
+
+  .mobile-nav option {
+    background-color: grey;
+    color: white;
+  }
+}

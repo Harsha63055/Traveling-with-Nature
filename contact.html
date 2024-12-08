@@ -1,31 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Traveling with nature</title>
-    <link rel="stylesheet" href="./contact.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./contact.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div id="b1">
+      <header>
+        <img src="./assects/images/logo.png" class="logo" alt="Company Logo" />
+        <nav>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <!--Mobile-->
+          <select class="mobile-nav" onchange="location = this.value;">
+            <option value="contact.html">Contact</option>
+            <option value="about.html">About</option>
+            <option value="service.html">Services</option>
+            <option value="index.html">Home</option>
+          </select>
+        </nav>
+      </header>
+      <h1
+        style="
+          text-align: center;
+          font-size: 50px;
+          color: white;
+          margin-top: 10px;
+        "
+      >
+        Contact Us
+      </h1>
+    </div>
     <div>
-        <div>
-          <header>
-            <img src="./assects/images/logo.png" class="logo" alt="Company Logo" />
-          <nav>
-           <ul class="nav-links">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./service.html">Services</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                  </ul>
-            <!--Mobile-->
-            <select class="mobile-nav" onchange="location = this.value;">
-              <option value="contact.html">Contact</option>
-              <option value="about.html">About</option>
-              <option value="service.html">Services</option>
-              <option value="index.html">Home</option>
-            </select>
-          </nav>
-        </header>
-</body>
+      <section id="b2">
+        <div class="a1">
+          <p class="a2">You can find us at</p>
+          <p></p>
+          <p style="line-height: 30px"><b>EMAIL </b><br />hello@tyler.com</p>
+          <br />
+          <p style="line-height: 30px">
+            <b>PHONE NUMBER </b><br />+91 90876 54321
+          </p>
+          <br />
+          <p style="line-height: 30px">
+            <b>LOCATION </b><br />Hyderabad, Telangana, INDIA
+          </p>
+          <br />
+          <ion-icon
+            name="logo-instagram"
+            style="
+              font-size: 40px;
+              background-color: grey;
+              padding: 10px;
+              border-radius: 100px;
+            "
+          ></ion-icon>
+          <ion-icon
+            name="logo-youtube"
+            style="
+              font-size: 40px;
+              background-color: grey;
+              padding: 10px;
+              border-radius: 100px;
+            "
+          ></ion-icon>
+          <ion-icon
+            name="logo-twitter"
+            style="
+              font-size: 40px;
+              background-color: grey;
+              padding: 10px;
+              border-radius: 100px;
+            "
+          ></ion-icon>
+        </div>
+        <div class="a3">
+          <p class="a4">Let's get in touch</p>
+
+        <form action="">        
+          <label for="name"></label>
+          <input
+            type="text"
+            placeholder="Name"
+            required
+            id="name"
+
+            style="
+              border-top: none;
+              border-left: none;
+              border-right: none;
+              width: 300px;
+            "
+          /><br /><br />
+          <input
+            type="email"
+            placeholder="Email"
+            id="email"
+            required
+            style="
+              border-top: none;
+              border-left: none;
+              border-right: none;
+              width: 300px;
+            "
+          /><br /><br />
+          <textarea
+            placeholder="Message"
+            for="message"
+            style="height: 100px; width: 300px"
+            required
+            id=""
+          ></textarea>
+          <a href="./contact.html"><input
+            type="submit"
+            value="Send Message"
+            style="padding: 20px 50px; background-color: yellow"
+            name=""
+            id="message"
+            
+          /></a>
+        </form>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section >
+        <div class="img123">
+          <img src="./assects/images/avatar_1.jpg" alt="" />
+          <img src="./assects/images/avatar_4.jpg" alt="" />
+          <img src="./assects/images/avatar_2.jpg" alt="" />
+          <img src="./assects/images/avatar_3.jpg" alt="" />
+        </div>
+      </section>
+    </div>
+    <div>
+      <section class="s5">
+        <img src="./assects/images/logo-colored.png" alt="" />
+        <p>Love Nature by Tyler Moore</p>
+      </section>
+    </div>
+  </body>
 </html>
