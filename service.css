@@ -85,6 +85,14 @@ nav {
   line-height: 35px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.w1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.icons .icon{
+  font-size: 50px;
+}
 .s5 {
   padding: 20px;
   display: flex;
@@ -118,5 +126,9 @@ nav {
   .c1 p{
     display: flex;
     flex-wrap: wrap;
+  }
+  .icons{
+    display: flex
+    justify-content:center;
   }
 }
